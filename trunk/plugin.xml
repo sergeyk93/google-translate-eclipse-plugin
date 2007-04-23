@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+  <extension point="org.eclipse.ui.popupMenus"> 
+    <viewerContribution id="org.eclipse.ui.articles.action.contribution.popup.editor"
+                        targetID="#TextEditorContext"> 
+     <action
+           id="org.google.code.translate.actions.TranslateAction" 
+           label="&amp;Translate Action"
+           icon="icons/translate.gif"
+        menubarPath="additions" 
+        class="org.google.code.translate.actions.TranslateAction"> 
+        </action> 
+     </viewerContribution> 
+  </extension>
+
+  <extension point="org.eclipse.ui.editorActions"> 
+    <editorContribution id="org.eclipse.ui.articles.action.contribution.editor" 
+     targetID="org.eclipse.ui.DefaultTextEditor">
+     <action
+           id="org.google.code.translate.actions.ConfigTranslateAction" 
+           label="Config Translate" 
+           icon="icons/translate.gif"
+           tooltip="Config Translate"
+        toolbarPath="Normal/additions"
+           class="org.google.code.translate.actions.ConfigTranslateAction"> 
+        </action> 
+     </editorContribution> 
+  </extension>
+
+</plugin>
