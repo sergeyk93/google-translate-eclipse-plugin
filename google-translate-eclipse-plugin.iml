@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4" relativePaths="false" type="JAVA_MODULE">
+  <component name="ModuleRootManager" />
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <exclude-output />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.core.runtime_3.2.0.v20060603.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.osgi_3.2.2.R32x_v20070118.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.ui.workbench_3.2.2.M20070119-0800.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.swt_3.2.2.v3236b.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.swt.win32.win32.x86_3.2.2.v3236.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.ui.editors_3.2.1.r321_v20060721.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.ui.workbench.texteditor_3.2.0.v20060605-1400.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.text_3.2.0.v20060605-1400.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.jface.text_3.2.2.r322_v20070104.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.jface_3.2.2.M20061214-1200.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntryProperties />
+  </component>
+  <component name="POM File Configuration" pomFile="" />
+</module>
+
