@@ -68,5 +68,4 @@ public class TranslateAction extends ActionDelegate implements IEditorActionDele
     this.textEditor = (TextEditor) targetEditor;
   }
 
-
 }

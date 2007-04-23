@@ -19,12 +19,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/google/code/translate/TranslateHelper.java" afterPath="$PROJECT_DIR$/src/main/java/org/google/code/translate/TranslateHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profiles.xml" afterPath="$PROJECT_DIR$/profiles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-translate-eclipse-plugin.ipr" afterPath="$PROJECT_DIR$/google-translate-eclipse-plugin.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateAction.java" afterPath="$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateConfigurationForm.java" afterPath="$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateConfigurationForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/ConfigTranslateAction.java" afterPath="$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/ConfigTranslateAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateConfigDialog.java" afterPath="$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateConfigDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-translate-eclipse-plugin.iml" afterPath="$PROJECT_DIR$/google-translate-eclipse-plugin.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-translate-eclipse-plugin.iws" afterPath="$PROJECT_DIR$/google-translate-eclipse-plugin.iws" />
     </list>
   </component>
   <component name="ChangeListSynchronizer" />
@@ -212,86 +212,7 @@
     </subPane>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TranslateAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="22" selection-start="1322" selection-end="1322" vertical-scroll-proportion="1.1150442">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigTranslateAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/ConfigTranslateAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="167" column="0" selection-start="3957" selection-end="3957" vertical-scroll-proportion="0.84070796">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JDialog.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.5.0/src.zip!/javax/swing/JDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="460" column="16" selection-start="18148" selection-end="18148" vertical-scroll-proportion="0.32389382">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Properties.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.5.0/src.zip!/java/util/Properties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="587" column="29" selection-start="22189" selection-end="22189" vertical-scroll-proportion="0.64247787">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TranslateHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/TranslateHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="33" selection-start="1308" selection-end="1308" vertical-scroll-proportion="-3.6909091">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TranslateConfigurationForm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateConfigurationForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="-2.5044248">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TranslateConfigDialog.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateConfigDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="25" selection-start="1590" selection-end="1590" vertical-scroll-proportion="1.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TranslateConfiguration.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="42" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.4159292">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -576,16 +497,6 @@
   </component>
   <component name="RestoreUpdateTree" />
   <component name="RunManager">
-    <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <module name="" />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -608,6 +519,16 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="wholeProject" />
       </option>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <module name="" />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
@@ -694,41 +615,41 @@
     <frame x="1" y="0" width="1023" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="DocTree" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917964" order="-1" />
+      <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
+      <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
+      <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
+      <window_info id="DocTree" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917964" order="3" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
-      <window_info id="ScratchPad" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="Minimized stickies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
+      <window_info id="ScratchPad" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
+      <window_info id="Minimized stickies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="Dilbert" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Dilbert" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="4" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="CVS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24922119" order="0" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="1" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="TunnelliJ 1.2" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32899022" order="8" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="TunnelliJ 1.2" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="2" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
-      <window_info id="File View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
+      <window_info id="File View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="IntelliCalc" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="IntelliCalc" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" order="3" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="0" />
       <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="3" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="5" />
     </layout>
@@ -817,32 +738,9 @@
     <option name="myLastEditedConfigurable" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/Activator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="252" selection-end="252" vertical-scroll-proportion="0.25375938">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/KeyValuePair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="158" selection-end="158" vertical-scroll-proportion="-0.6855576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/LanguageEntryRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="13" selection-start="287" selection-end="287" vertical-scroll-proportion="-0.09689214">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.5.0/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="587" column="29" selection-start="22189" selection-end="22189" vertical-scroll-proportion="0.64247787">
           <folding />
         </state>
       </provider>
@@ -854,57 +752,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.5.0/src.zip!/javax/swing/JDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/ConfigTranslateAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="460" column="16" selection-start="18148" selection-end="18148" vertical-scroll-proportion="0.32389382">
+        <state line="167" column="0" selection-start="3957" selection-end="3957" vertical-scroll-proportion="1.3342696">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/ConfigTranslateAction.java">
+    <entry file="jar://C:/Java/jdk1.5.0/src.zip!/javax/swing/JDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="0" selection-start="3957" selection-end="3957" vertical-scroll-proportion="0.84070796">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="460" column="16" selection-start="18148" selection-end="18148" vertical-scroll-proportion="0.042134833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.5.0/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="587" column="29" selection-start="22189" selection-end="22189" vertical-scroll-proportion="0.042134833">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="22" selection-start="1322" selection-end="1322" vertical-scroll-proportion="1.1150442">
+        <state line="67" column="29" selection-start="2099" selection-end="2099" vertical-scroll-proportion="0.57865167">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.ui.editors_3.2.1.r321_v20060721.jar!/org/eclipse/ui/editors/text/TextEditor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="68" selection-start="220" selection-end="220" vertical-scroll-proportion="0.17595308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.ui.editors_3.2.1.r321_v20060721.jar!/org/eclipse/ui/texteditor/AbstractDecoratedTextEditor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="95" selection-start="245" selection-end="245" vertical-scroll-proportion="0.17595308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.ui.workbench.texteditor_3.2.0.v20060605-1400.jar!/org/eclipse/ui/texteditor/StatusTextEditor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="75" selection-start="225" selection-end="225" vertical-scroll-proportion="0.17595308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.ui.workbench.texteditor_3.2.0.v20060605-1400.jar!/org/eclipse/ui/texteditor/AbstractTextEditor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="340" selection-start="490" selection-end="490" vertical-scroll-proportion="0.17595308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.ui.workbench.texteditor_3.2.0.v20060605-1400.jar!/org/eclipse/ui/texteditor/ITextEditorExtension4.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="167" selection-end="167" vertical-scroll-proportion="0.17595308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/TranslateHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="33" selection-start="1308" selection-end="1308" vertical-scroll-proportion="-3.6909091">
+        <state line="42" column="33" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.04398827">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateConfigurationForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="-2.5044248">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="11" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="0.042134833">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateConfigDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="25" selection-start="1590" selection-end="1590" vertical-scroll-proportion="1.0">
+        <state line="58" column="25" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.042134833">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/google/code/translate/actions/TranslateConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="42" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.4159292">
+        <state line="59" column="42" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.6601124">
           <folding />
         </state>
       </provider>

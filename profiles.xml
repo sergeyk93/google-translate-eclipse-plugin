@@ -2,7 +2,7 @@
   <profile>
     <id>dev</id>
     <properties>
-      <eclipse.home>c:/Editors/eclipse-3.2.1</eclipse.home>
+      <eclipse.home>c:/Editors/eclipse-3.2.2</eclipse.home>
    </properties>
     <activation>
       <activeByDefault>true</activeByDefault>
