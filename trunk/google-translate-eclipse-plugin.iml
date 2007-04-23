@@ -101,6 +101,15 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Editors/eclipse-3.2.2/plugins/org.eclipse.equinox.common_3.2.0.v20060603.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntryProperties />
   </component>
   <component name="POM File Configuration" pomFile="" />
