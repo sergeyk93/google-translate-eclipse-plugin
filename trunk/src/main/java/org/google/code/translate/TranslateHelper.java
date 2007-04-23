@@ -40,17 +40,13 @@ public class TranslateHelper {
       }
     }
 */
-	  
-      System.getProperties().put("proxySet", "true");
-      System.getProperties().put("proxyPort", "8080");
-      System.getProperties().put("proxyHost", "proxy-server.bms.com");
 
     if(pairs.size() == 0) {
       prepareLangPairs();
     }
   }
 
-  private void prepareLangPairs() throws Exception {
+  public void prepareLangPairs() throws Exception {
     String start = "<select name=langpair>";
     String end = "</select>";
 

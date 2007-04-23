@@ -3,12 +3,11 @@ package org.google.code.translate.actions;
 import org.google.code.translate.KeyValuePair;
 import org.google.code.translate.LanguageEntryRenderer;
 import org.google.code.translate.TranslateHelper;
-//import org.google.code.translate.TranslateConfiguration;
 
 import javax.swing.*;
-import java.util.List;
-import java.util.ArrayList;
 import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class TranslateConfigurationForm {
@@ -16,30 +15,34 @@ public class TranslateConfigurationForm {
 
   private JComboBox comboBox = new JComboBox();
   private JLabel label = new JLabel("Select translation:");
-  
+
   private JTextField proxyHost = new JTextField(25);
-  private JTextField proxyPort = new JTextField(5);	
+  private JTextField proxyPort = new JTextField(5);
 
   public TranslateConfigurationForm() {
     rootComponent = new JPanel();
 
-    rootComponent.setLayout(new FlowLayout());
+    rootComponent.setLayout(new BorderLayout());
 
-    rootComponent.add(label);
-    rootComponent.add(comboBox);
-    
-    rootComponent.add(new JLabel("Proxy Host: "));    
-    rootComponent.add(proxyHost);
+    JPanel panel1 = new JPanel();
+    JPanel panel2 = new JPanel();
 
-    rootComponent.add(new JLabel("Proxy Port: "));    
-    rootComponent.add(proxyPort);
-    
+    rootComponent.add(panel1, BorderLayout.CENTER);
+    rootComponent.add(panel2, BorderLayout.NORTH);
+
+    panel1.add(label);
+    panel1.add(comboBox);
+
+    panel2.add(new JLabel("Proxy Host/Port: "));
+    panel2.add(proxyHost);
+    panel2.add(proxyPort);
+
     comboBox.removeAllItems();
     comboBox.setModel(createModel());
     comboBox.setRenderer(new LanguageEntryRenderer());
 
-    if(comboBox.getModel().getSize() > 0) {
-      comboBox.setSelectedIndex(0);      
+    if (comboBox.getModel().getSize() > 0) {
+      comboBox.setSelectedIndex(0);
     }
   }
 
@@ -82,31 +85,53 @@ public class TranslateConfigurationForm {
 
     boolean ok = false;
 
-    for(int i=0; i < model.getSize() && !ok; i++) {
-      KeyValuePair item = (KeyValuePair)model.getElementAt(i);
+    for (int i = 0; i < model.getSize() && !ok; i++) {
+      KeyValuePair item = (KeyValuePair) model.getElementAt(i);
 
-      if(item.getKey().equals(langPair)) {
+      if (item.getKey().equals(langPair)) {
         comboBox.setSelectedItem(item);
         ok = true;
       }
     }
+    
+    comboBox.setSelectedItem(data.getLangPair());
+    proxyHost.setText(data.getProxyHost());
+    proxyPort.setText(data.getProxyPort());    
   }
 
   public void getData(TranslateConfiguration data) {
-    KeyValuePair selectedItem = (KeyValuePair)comboBox.getSelectedItem();
+    KeyValuePair selectedItem = (KeyValuePair) comboBox.getSelectedItem();
 
-    if(selectedItem != null) {
+    if (selectedItem != null) {
       data.setLangPair(selectedItem.getKey());
     }
-  }
-  
- 
-  public boolean isModified(TranslateConfiguration data) {
-    KeyValuePair selectedItem = (KeyValuePair)comboBox.getSelectedItem();
 
-    return selectedItem != null ?
-           !selectedItem.getKey().equals(data.getLangPair()) :
-           data.getLangPair() != null;
+    if(proxyHost != null) {
+      data.setProxyHost(proxyHost.getText().trim());
   }
-  
+
+    if(proxyPort != null) {
+      data.setProxyPort(proxyPort.getText().trim());
+    }
+  }
+
+
+  public boolean isModified(TranslateConfiguration data) {
+    KeyValuePair selectedItem = (KeyValuePair) comboBox.getSelectedItem();
+
+    boolean isModified = selectedItem != null ?
+      !selectedItem.getKey().equals(data.getLangPair()) :
+      data.getLangPair() != null;
+
+    isModified |= proxyHost != null ?
+           !proxyHost.getText().equals(data.getProxyHost()) :
+           data.getProxyHost() != null;
+
+    isModified |= proxyPort != null ?
+           !proxyPort.getText().equals(data.getProxyPort()) :
+           data.getProxyPort() != null;
+
+    return isModified;
+  }
+
 }
